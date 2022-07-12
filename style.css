@@ -1,3 +1,32 @@
+.header{
+    background-color: #9C0F48;
+    height:200px;
+}
+
+.intro{
+    text-align: center;
+    margin: 30px;
+}
+
+body{
+    margin:0px;
+}
+
+
+header{
+    height:200px;
+    background-color:#470D21;
+}
+
 h1{
-    color:blue;
+    font-family: 'Bebas Neue', cursive;
+    color:#D67D3E;
+}
+
+h2{
+    font-family: 'Abril Fatface', cursive;
+}
+
+p{
+    font-family: 'Jost', sans-serif;
 }
