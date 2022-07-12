@@ -23,10 +23,57 @@ h1{
     color:#D67D3E;
 }
 
-h2{
-    font-family: 'Abril Fatface', cursive;
-}
 
 p{
     font-family: 'Jost', sans-serif;
 }
+
+ 
+.accordion {
+    width:80%;
+    margin:1rem auto;
+    background-color: #F9E4D4;
+  }
+  
+  .accordion h1{
+    text-align:center;
+  }
+  
+  .accordion-item{
+    margin: 1rem; 
+  }
+  
+  .accordion-item-header {
+    display: flex;
+    align-items: center;
+    position: relative;
+    cursor: pointer;  
+    font-family: 'Abril Fatface', cursive;
+}
+
+  
+  .accordion-item-header::after {
+    content:"+";
+    font-size:2rem;
+    position:absolute;
+    right:1rem;
+  }
+  
+  .accordion-item-header.active::after{
+    content:"-";
+  }
+  
+  .accordion-item-body {
+    display:none;
+    padding:1rem;
+    line-height: 1,5rem;
+    border-top: 1px solid;
+  }
+  
+  .accordion-item-header.active + .accordion-item-body {
+    display: block;
+  }
+  
+  .accordion-item-body-content{
+    font-family: 'Cormorant Garamond', serif;
+  }
