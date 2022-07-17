@@ -3,6 +3,49 @@ body{
   margin:0px;
 }
 
+p{
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 500;
+  font-size: 12pt;
+}
+
+span{
+  font-family: 'Quicksand', sans-serif;
+  color:white;
+  padding:2px;
+}
+
+.keywords{
+  margin-top:-10px;
+}
+
+.html{
+  background-color:#57d48f;
+}
+
+.css{
+  background-color:#FF06B7;
+}
+
+.js{
+  background-color:#F47C7C;
+}
+
+.react{
+  background-color:#6F69AC;
+}
+
+.api{
+  background-color: #FAC213;
+}
+
+.mongoDB{
+  background-color:violet;
+}
+
+h1{
+  font-weight: 700;
+}
 
 /*HEADER*/
 
@@ -35,7 +78,7 @@ body{
   margin-left: 20px;
   margin-top: 175px;
   line-height: 40px;
-  font-family: 'Fredoka One', cursive;
+  font-family: 'Poiret One', cursive;
   color: #fbc2cd;
 }
 
@@ -49,19 +92,14 @@ body{
   position: absolute;
 } 
 
+/*ABOUT ME*/
 
-
-
-
-
-h1{
-
-  
+h2, h3, h4{
+  font-family: 'Poiret One', cursive;
 }
 
-
-p{
-    font-family: 'Jost', sans-serif;
+h2{
+  margin-top:-15px;
 }
 
  
@@ -81,7 +119,8 @@ p{
   
   .accordion-item-header {
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    align-items: left;
     position: relative;
     cursor: pointer;  
     font-family: 'Abril Fatface', cursive;
@@ -112,4 +151,9 @@ p{
   
   .accordion-item-body-content{
     font-family: 'Cormorant Garamond', serif;
+  }
+
+  .links{
+    display:flex;
+    flex-direction: column;
   }
