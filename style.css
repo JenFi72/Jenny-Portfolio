@@ -1,39 +1,62 @@
+
+body{
+  margin:0px;
+}
+
+
+/*HEADER*/
+
 .header{
-    background-color: #9C0F48;
-    height:200px;
+  display:flex;
+  flex-direction: column;
+  position: relative;
+  background-color: #9C0F48;
+  height:300px;
+  background-image: url("images/background2.png");
+}
+
+.logobox{
+  padding:25px;
+  top: 10px;
+  right: 5px;
+  position: absolute;
+}
+
+.fa-brands, .fa-solid{
+  color: #f3c5ce;
+  margin: 3px;
+  font-size: 25pt;
 }
 
 .intro{
-    text-align: center;
-    margin: 30px;
+  text-align: left;
+  width: 200px;
+  font-size: 12pt;
+  margin-left: 20px;
+  margin-top: 175px;
+  line-height: 40px;
+  font-family: 'Fredoka One', cursive;
+  color: #fbc2cd;
 }
-
 
 .profile-image{
   border: 5px solid #A9333A;
   overflow: hidden;
-  width: 160px;
-  height: 185px;
-  top: 138px;
-  right: 24px;
+  width: 155px;
+  height: 180px;
+  top: 120px;
+  right: 20px;
   position: absolute;
 } 
 
 
-body{
-    margin:0px;
-}
 
 
-.header{
-    height:300px;
-    background-color:#470D21;
-    background-image: url("images/background2.png");
-}
+
 
 h1{
-  font-family: 'Londrina Sketch', cursive;
-    color:#D67D3E;
+
+  
 }
 
 
