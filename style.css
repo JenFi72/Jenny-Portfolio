@@ -43,6 +43,10 @@ span{
   background-color:violet;
 }
 
+.node{
+  background-color:rgb(53, 212, 233);
+}
+
 h1{
   font-weight: 700;
 }
