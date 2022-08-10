@@ -3,10 +3,10 @@ body{
   margin:0px;
 }
 
-p{
+p, li{
   font-family: 'Quicksand', sans-serif;
   font-weight: 500;
-  font-size: 12pt;
+  font-size: 11pt;
 }
 
 span{
@@ -20,6 +20,11 @@ span{
 h1{
   font-size:40px;
   color:#cbf5ea;
+}
+
+h3{
+  font-style: italic;
+  color:#E1578A;
 }
 
 
@@ -106,7 +111,7 @@ h1{
 
 /*ABOUT ME*/
 
-h1, h2, h3, h4{
+h1, h2, h3, h4, h5, h6, .projects{
   font-family: 'Oswald', sans-serif;
 }
 
@@ -118,7 +123,7 @@ h2{
 .accordion {
     width:80%;
     margin:1rem auto;
-    background-color: #F9E4D4;
+    background-color: #cbf5ea;
   }
   
   .accordion h1{
@@ -168,4 +173,41 @@ h2{
   .links{
     display:flex;
     flex-direction: column;
+    margin-top: -1rem;
+    margin-bottom: -1rem;
+  }
+
+
+  .projects{
+    font-size: 35px;
+    color: #E1578A;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-top: 0rem;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+
+  .technigo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 45px;
+  }
+
+  .arrow{
+color: #A9333A;
+  }
+
+  .projectDescr{
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+  }
+
+  .phone, .mail{
+    color:#A9333A;
+  }
+
+  .contact{
+    color:black;
   }
